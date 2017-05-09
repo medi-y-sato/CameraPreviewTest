@@ -69,7 +69,9 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
-            "cordova-plugin-camera-preview": {},
+            "cordova-plugin-camera-preview": {
+                "CAMERA_USAGE_DESCRIPTION": "フレーム撮影の為、カメラにアクセスします"
+            },
             "cordova-plugin-crosswalk-webview": {
                 "XWALK_VERSION": "22+",
                 "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
