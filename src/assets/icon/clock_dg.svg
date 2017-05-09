@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0 Z"/>
+    <mask id="b" width="20" height="20" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill-rule="nonzero" stroke="#555555" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+    <polygon fill="#555555" points="10 11 10 3 9 3 9 12 17 12 17 11"/>
+  </g>
+</svg>

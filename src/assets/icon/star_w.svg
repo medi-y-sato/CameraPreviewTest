@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <polygon id="a" points="12 0 15.668 7.568 24 8.719 17.936 14.547 19.416 22.826 12 18.859 4.583 22.826 6.064 14.547 0 8.719 8.332 7.568"/>
+    <mask id="b" width="24" height="22.826" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <use fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+</svg>

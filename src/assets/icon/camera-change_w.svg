@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <g transform="translate(2)">
+      <path stroke="#FFFFFF" d="M12.4276775,3.309634 C12.3314068,3.14477965 12.2282624,2.98442998 12.1186376,2.82897799 C10.9118717,1.11774042 8.91980033,0 6.66666667,0 C2.98476833,0 0,2.98476833 0,6.66666667"/>
+      <polygon fill="#FFFFFF" points="13.013 3.036 14.991 6.991 11.036 6.991" transform="scale(1 -1) rotate(19 42.972 0)"/>
+    </g>
+    <g transform="rotate(180 8 7.5)">
+      <path stroke="#FFFFFF" d="M12.4276775,3.309634 C12.3314068,3.14477965 12.2282624,2.98442998 12.1186376,2.82897799 C10.9118717,1.11774042 8.91980033,0 6.66666667,0 C2.98476833,0 0,2.98476833 0,6.66666667"/>
+      <polygon fill="#FFFFFF" points="13.013 3.036 14.991 6.991 11.036 6.991" transform="scale(1 -1) rotate(19 42.972 0)"/>
+    </g>
+  </g>
+</svg>
