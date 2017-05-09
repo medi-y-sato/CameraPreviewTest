@@ -28,6 +28,7 @@
         "cordova-android": "^6.2.3",
         "cordova-plugin-camera-preview": "git+https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git",
         "cordova-plugin-console": "1.0.5",
+        "cordova-plugin-crosswalk-webview": "^2.2.0",
         "cordova-plugin-device": "1.1.4",
         "cordova-plugin-splashscreen": "~4.0.1",
         "cordova-plugin-statusbar": "2.2.2",
@@ -68,7 +69,14 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
-            "cordova-plugin-camera-preview": {}
+            "cordova-plugin-camera-preview": {},
+            "cordova-plugin-crosswalk-webview": {
+                "XWALK_VERSION": "22+",
+                "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+                "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+                "XWALK_MODE": "embedded",
+                "XWALK_MULTIPLEAPK": "true"
+            }
         },
         "platforms": [
             "android"

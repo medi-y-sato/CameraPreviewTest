@@ -4,9 +4,16 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="v-camera-preview">
 
   <button ion-button (click)="dismiss()" ion-button class="v-alerm-setting__btn-close">閉じる</button>
+
+  <div class="v-camera-preview__img">
+    <img class="previewPicture" src="">
+  </div>
+
+  <div class="v-camera-preview__mask v-camera-preview__mask-before js-v-camera-preview__mask"></div>
+  <div class="v-camera-preview__mask v-camera-preview__mask-after js-v-camera-preview__mask"></div>
 
   <ion-toolbar class="v-camera-preview__btns">
     <button ion-button class="v-btn-switch-camera">カメラ切替</button>
